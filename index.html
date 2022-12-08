@@ -1,6 +1,8 @@
 <!doctype html>
-<html>
+<html lang="fr">
 	<head>
+		<meta charset="utf-8">
+		<title>Booki</title>
 		<!-- Obtension d'un kit code sur Font Awesome -->
 		<script src="https://kit.fontawesome.com/d7cf733566.js" crossorigin="anonymous"></script>
 		
@@ -12,6 +14,42 @@
 	</head>
 
 	<body>
-		<i class="fa-solid fa-thumbs-up fa-5x"></i>
+		<div class="container">
+			<header>
+				<div class="entete">
+					<div><img src="images/Booki.png" alt="logo du site" id="image-logo"/></div>
+					<div>
+						<nav>
+							<ul id="ul-menu-entete">
+								<li><a href="#" class="a-menu-entete">Hébergements</a></li>
+								<li><a href="#" class="a-menu-entete">Activités</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</header>
+			<div id="div-trouve-heb">
+				<strong>Trouvez votre hébergement pour des vaccances de rève</strong>
+			</div>
+			<label for="site-search" id="lab-rech1">En pleine centr-ville ou en nature</label>
+			<div id="row-rechercher">
+				<span id="icon-position1"><i class="fa-sharp fa-solid fa-location-dot"></i></span>
+				<input type="search" id="site-rechercher" name="q" value="Marseille, France">
+				<button id="bt-rechercher">Rechercher</button>
+			</div>
+			<nav>
+				<ul id="ul-icons">
+					<li class="li-icons">Filtres</li>
+					<li class="li-icons"><a href="#"><i class="fa-solid fa-money-bill-wave icon-bleu"></i>Economique</a></li>
+					<li class="li-icons"><a href="#"><i class="fa-solid fa-person icon-bleu"></i>Familiale</a></li>
+					<li class="li-icons"><a href="#"><i class="fa-solid fa-heart icon-bleu"></i>Romantique</a></li>
+					<li class="li-icons"><a href="#"><i class="fa-solid fa-dog icon-bleu"></i>Animaux autorisés</a></li>
+				</ul>
+			</nav>
+			<div id="div-logment-dispo">
+				<span id="icon-info1"><i class="fa-solid fa-info"></i></span>
+				Plus de 500 logements sont disponibles dans cette ville
+			</div>
+		</div>
 	</body>
 </html>
