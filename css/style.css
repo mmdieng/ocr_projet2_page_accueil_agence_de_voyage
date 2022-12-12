@@ -1,5 +1,176 @@
-body {
-    background-color: blue;
-    font-family: 'Raleway', serif;
-    font-size: 48px;
-  }
+.container{
+  max-width: 63em;
+  margin: auto;
+}
+.entete {
+  display: flex;
+  justify-content:space-between;
+  height: 6em;
+}
+
+#image-logo {
+  margin-top: 1em;
+	width: 4em;
+	height: auto;
+}
+
+#ul-menu-entete {
+  display: flex;
+  list-style:none;
+}
+
+.a-menu-entete {
+  text-decoration:none;
+  color: rgb(26, 3, 3);
+  padding: 1em;
+}
+
+.a-menu-entete:hover{
+  border-top: 0.2em solid blue;
+  color: blue;
+}
+
+#div-trouve-heb{
+  font-size: 110%;
+}
+
+#lab-rech1{
+  color: #696969;
+}
+
+#row-rechercher{
+  margin-top: 1em;
+  display: flex;
+}
+#icon-position1{
+  padding: 0.5em 0.8em 0.5em 0.8em;
+  background-color: #f2f2f2;
+  border-radius: 3em 0em 0em 3em;
+}
+#bt-rechercher{
+  border:none;
+  padding: 0.6em 1em 0.6em 1em;
+  background-color: #0065fc;
+  color: #f2f2f2;
+  border-radius: 0em 3em 3em 0em;
+}
+
+.icon-bleu{
+  color: #0065fc;
+  padding: 0.3em;
+}
+#ul-icons{
+  display: flex;
+  list-style:none;
+  padding: 0em;
+}
+
+.li-icons {
+  padding: 0.5em;
+}
+
+.li-icons a{
+  text-decoration:none;
+  color:black;
+  
+  padding: 0.5em;
+  border:0.1em solid #e0e0e0;
+  border-radius: 1em;
+}
+
+.li-icons a:hover{
+  background-color: #deebff;
+}
+
+#icon-info1{
+  font-size: 50%;
+  background-color:#ffffff;
+  color: #3c89fd;
+  border:0.1em solid #e0e0e0;
+  border-radius: 50%;
+  padding: 0.5em 1em 0.5em 1em;
+}
+
+#div-logment-dispo{
+  color: #696969;
+  font-size: 80%;
+}
+
+#div-hotels{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  //gap: 2em;
+}
+
+.div-hotel-marseil{
+  display: flex ;
+  flex-direction: column;
+  padding: 0.3em;
+  background-color: #ffffff;
+  border-radius: 1em;
+  width: 12em;
+}
+.img-hot-marseil{
+  width: 12em;
+	height: 6em;
+  border-radius: 1em 1em 0em 0em;
+}
+#div-heberg-marseille{
+  display: flex ;
+  //flex: 2 1 63%;
+  max-width:41em;
+  flex-direction:column ;
+  gap: 1em;
+  padding: 1em;
+  background-color: #f2f2f2;
+  border-radius: 1em;
+}
+#div-heberg_marseille-lits{
+  display: flex;
+  justify-content:space-between;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+.ecrit-claire{
+  color: #696969;
+}
+.span-etoiles-bleu{
+  color:#0065fc;
+}
+#div-les-plus-popul-lits{
+  display: flex;
+  flex-direction:column ;
+  gap:1em;
+}
+#div-les-plus-popul{
+  display: flex;
+  max-width: 21em;
+  flex-direction:column ;
+  gap: 1em;
+  padding: 1em;
+  background-color: #f2f2f2;
+  border-radius: 1em;
+}
+#div-les-plus-pop-in{
+  display: flex;
+  justify-content: space-between;
+}
+.div-hotel-les-plus-popul{
+  display: flex;
+  padding: 0.4em;
+  gap:0.5em;
+  background-color: #ffffff;
+  border-radius: 1em;
+  width: 15em;
+}
+
+.div-info-lits-intern{
+  height: 5em;
+}
+
+.img-hot-les-plus-popul{
+  width: 6em;
+	height: 6em;
+  border-radius: 1em 0em 0em 1em; 
+}
