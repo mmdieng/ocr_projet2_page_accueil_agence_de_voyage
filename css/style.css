@@ -110,16 +110,16 @@ body {
     border-radius: 1em;
   }
   #div-heberg-marseille h3{
-    margin:0em 0em 1em 0em;
     font-size: 0.9em;
   }
-  #div-heberg_marseille-cards{
+  .div-heberg_marseille-cards{
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
     gap:1em;
+    margin-top: 1em;
   }
   .a-card-marseille{
+    width: 30%;
     text-decoration: none;
     color: black;
     padding: 0.3em;
@@ -127,13 +127,13 @@ body {
     border-radius: 1em;
   }
   .container-img-card-marseille{
-    width: 12.2em;
+    width: 100%;
     height: 4em;
   }
   .img-card-marseille{
     width:100%;
     height: 4em;
-    border-radius: 1em 1em 0em 0em;
+    border-radius: 0.9em 0.8em 0em 0em;
   }
   .div-container-card-marseille{
     padding: 0.2em;
@@ -158,7 +158,7 @@ body {
   }
 
   #div-les-plus-popul{
-    flex: 1 1 20%;
+    flex: 1 1 30%;
     padding: 1em;
     background-color: #f2f2f2;
   }
@@ -173,11 +173,12 @@ body {
   }
   #div-les-plus-popul-cards{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-between;
     gap:1em;
   }
   .a-card-les-plus-popul{
+    width: 100%;
     display: flex;
     gap:0.5em;
     text-decoration: none;
@@ -187,7 +188,7 @@ body {
     border-radius: 1em;
   }
   .container-img-card-les-plus-popul{
-    width: 5em;
+    width: 30%;
     height: 5em;
   }
   .img-card-les-plus-popul{
@@ -195,12 +196,15 @@ body {
     height: 5em;
     border-radius: 1em 0em 0em 1em;
   }
+  .div-container-card-les-plus-popul{
+    width: 70%;
+  }
   .div-container-card-les-plus-popul p,h5{
     margin: 0;
     font-size: 0.62em;
   }
   .div-card{
-    width:6em;
+    width:100%;
     height: 4.2em;
   }
 
@@ -283,6 +287,9 @@ body {
     #div-hotels{
       flex-direction: column;
     }
+    #div-les-plus-popul-cards{
+      flex-direction: row;
+    }
   }
   @media screen and (max-width:768px) {
     #container{
@@ -328,11 +335,13 @@ body {
     #div-heberg-marseille{
       background-color: white;
     }
-    #div-heberg_marseille-cards{
+    .div-heberg_marseille-cards{
       flex-direction: column;
       gap: 0.5em;
+      margin-top: 0.5em;
     }
     .a-card-marseille{
+        width: 100%;
       border: 3px solid #f2f2f2;
       box-shadow: 0em 0em 0.1em;
     }
